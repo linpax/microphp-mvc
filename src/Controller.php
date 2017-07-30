@@ -10,5 +10,5 @@ namespace Micro\Mvc;
 
 interface Controller
 {
-    public function action($name);
+    public function action($name, $container);
 }
