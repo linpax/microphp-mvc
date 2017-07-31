@@ -8,7 +8,7 @@
 namespace Micro\Mvc;
 
 
-interface Model
+interface Render
 {
-
+    public function rendering($source, array $params = []);
 }
