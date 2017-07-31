@@ -10,5 +10,5 @@ namespace Micro\Mvc;
 
 interface Render
 {
-    public function rendering($source, array $params = []);
+    public function rendering(View $view);
 }
