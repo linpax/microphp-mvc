@@ -8,9 +8,7 @@
 namespace Micro\Mvc;
 
 
-interface Controller
+interface Module
 {
-    public function __construct($module = '');
 
-    public function action($name, $container);
 }
