@@ -10,5 +10,9 @@ namespace Micro\Mvc;
 
 interface View
 {
-    public function rendering($source);
+    public function addParameter($name, $value);
+    public function getParameters();
+
+    public function setData($data);
+    public function getData();
 }

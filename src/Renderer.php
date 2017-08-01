@@ -8,7 +8,11 @@
 namespace Micro\Mvc;
 
 
-interface Render
+interface Renderer
 {
-    public function rendering(View $view);
+    /**
+     * @param View $view
+     * @return string
+     */
+    public function render(View $view);
 }
