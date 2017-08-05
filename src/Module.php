@@ -10,5 +10,4 @@ namespace Micro\Mvc;
 
 interface Module
 {
-
 }

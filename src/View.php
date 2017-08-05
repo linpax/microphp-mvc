@@ -12,4 +12,16 @@ interface View
 {
     public function addParameter($name, $value);
     public function getParameters();
+
+    public function setLayout($name);
+    public function getLayout();
+
+    public function setView($name);
+    public function getView();
+
+    public function setPath($viewDir);
+    public function getPath();
+
+    public function setData($source);
+    public function getData();
 }
