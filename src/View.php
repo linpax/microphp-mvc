@@ -19,6 +19,9 @@ interface View
     public function setView($name);
     public function getView();
 
+    public function setModulePath($module);
+    public function getModulePath();
+
     public function setPath($viewDir);
     public function getPath();
 
